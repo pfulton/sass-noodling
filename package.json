@@ -1,0 +1,15 @@
+{
+  "name": "sass-noodling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/scss/:dist/css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.23.0"
+  }
+}

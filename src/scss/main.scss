@@ -1,0 +1,5 @@
+@use 'settings.gray-function';
+
+body {
+  background-color: settings.gray(3);
+}

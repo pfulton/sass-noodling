@@ -1,0 +1,12 @@
+// Grayscale
+@function gray($level) {
+  @if $level == 0 {
+    @return white;
+  }
+  @else if $level == 100 {
+    @return black;
+  }
+  @else {
+    @return darken(white, $level * 1%);
+  }
+}
